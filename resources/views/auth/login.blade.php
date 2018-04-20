@@ -37,7 +37,6 @@
 				        <a href="{{url('perdida')}}">He olvidado mi contraseña</a>
 				    </div>
 
-
 					
 
 					@if(session('error'))
@@ -50,6 +49,15 @@
 					
 					<br>
 			        <button class="btn btn-lg btn-primary btn-block" type="submit" value="Submit">Entrar</button>   
+
+
+					
+					<div class="input-group">
+				        <input type="checkbox" value="recuerdame" name="rememberMe"> Recuérdame 
+				        <br>
+				        <a href="{{url('usuarios/crear')}}">Registrate aquí</a>
+				    </div>
+
 			    </form>
 			</div>
 		</div>
