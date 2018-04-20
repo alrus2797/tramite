@@ -227,6 +227,7 @@
             @else
                 <!--<span aria-hidden="true"> <a  style="text-decoration: none" class="glyphicon glyphicon-log-in" href="{{ url('/login') }}"> Ingresar </a></span>-->
 
+                <a href="{{ url('/usuarios/crear') }}" type="button" class="btn btn-md btn-default"><i class="glyphicon glyphicon-edit"></i>  Registrar</a>
                 <a href="{{ url('/login') }}" type="button" class="btn btn-md btn-default"><i class="glyphicon glyphicon-edit"></i>  Log in</a>
 
             @endif
